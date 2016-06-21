@@ -1,0 +1,6 @@
+---
+# Install git for Redhat/Centos systems
+- name: Install Git
+    yum:
+      name: "git"
+      state: "latest"

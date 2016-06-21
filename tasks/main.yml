@@ -1,0 +1,10 @@
+---
+# Setup/Install GIT with OS Detection
+
+# Redhat/Centos
+- include: setup-Redhat.yml
+  when: ansible_os_family == 'Redhat'
+
+# Debian/Ubuntu
+- include: setup-Debian.yml
+  when: ansible_os_family == 'Debian'
