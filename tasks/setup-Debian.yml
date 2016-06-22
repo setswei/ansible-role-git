@@ -2,5 +2,5 @@
 # Install git for Debian/Ubuntu systems
 - name: Install Git
     apt:
-      name: "git"
-      state: "latest"
+       name: "git"
+       state: "latest"
